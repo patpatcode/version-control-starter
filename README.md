@@ -65,9 +65,10 @@ this assignment, go to your assignment's repo.
 4) Use your judgement, figure out how to create a file called `me.txt` that has
    your class nickname in it. Save that file.
 5) Do `git add me.txt` and then `git commit -m "add file with my nickname"`
-6) Browse your GitHub assignment repo in another tab and verify that your
+6) Do `git push origin main` to push your edited repo up to GitHub.
+7) Browse your GitHub assignment repo in another tab and verify that your
    `me.txt` file appears in your `main` branch.
-7) Close the editor.
+8) Close the editor.
 
 Kyle will post a video of all this.
 
