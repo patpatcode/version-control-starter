@@ -2,26 +2,19 @@
 
 _HELLO_, and welcome to this homework on version control.
 
-In this homework assignment, you'll 1) clone a
-[git](https://en.wikipedia.org/wiki/Git) repo from
-[GitHub](https://github.com/); 2) add a file;
-
-3. commit your changes; and, 4) push your changes
-   back up to GitHub. It's easy and fun.
+In this homework assignment, you'll use version control to
+track changes to some files. It's easy and fun (for me).
 
 ## Short instructions
 
-After starting the assignment by accepting the GitHub Classroom
-invitation, you'll have a repo with this file in it. I want to
-to add a file to that repo called "me.txt". That file needs to
-have your class nickname somewhere in it. And, you need to ensure
-you push your work back up to GitHub.
+After starting the assignment by accepting the GitHub Classroom invitation,
+you'll have a repo on GitHub with this file in it. I want to to add a file to
+that repo called "me.txt". That file needs to have your class nickname
+somewhere in it. My class nickname is "bald-chicken". Yours is different.
+Add that file to your repo and commit it. 
 
 ## Verbose instructions
 
-If you're reading this file (I KNOW THAT YOU ARE), the
-copy of this file could be in many places. I'm writing
-this file on my laptop in the post-lunch hours of Monday August 12th, 2019.
 This file is called `README.md`, and it is written
 in [markdown](https://en.wikipedia.org/wiki/Markdown)
 format, which is a popular format for writing documentation.
@@ -43,28 +36,38 @@ the directory where this file is), I see the following output
 ```
 commit 24ba3842101024b1c7b4a1baa5d0f3f6bd722729 (HEAD -> refs/heads/main)
 Author: Kyle L. Jensen <kljensen@gmail.com>
-Date:   Mon Aug 12 14:41:42 2019 -0400
+Date:   Mon Aug 12 14:41:42 2022 -0400
 
     Continue to pontificate
 
 commit 549436792173a8addb41f3ad46442ef5ecd1c468
 Author: Kyle L. Jensen <kljensen@gmail.com>
-Date:   Mon Aug 12 14:41:04 2019 -0400
+Date:   Mon Aug 12 14:41:04 2022 -0400
 
     Initial commit. I LOVE VERSION CONTROL
 ```
 
-I want you to do more-or-less what I just did.
-I want you to create a file
-called "me.txt" and put your class nickname into it. Your class
-nickname is something like "silly-eagle" and you can find it in
-your "dashboard" on the class website. The names are randomly
-generated and unique per class member.
+I want you to do more-or-less what I just did. I want you to create a file
+called "me.txt" and put your class nickname into it. Your class nickname is
+something like "silly-eagle" and you can find it in your "dashboard" on the
+class website. The names are randomly generated and unique per class member.
 
-Once you create that file, I want you to put it under version
-control and push your repo back up to GitHub.
+How can do you do that? Well, the _easiest_ way is to use GitHub CodeSpaces
+to do your work in the cloud. But, you can also do it on your laptop! Most
+"real" developers would do such a thing on their laptop.
 
-You'll need to use the following git commands to complete this
-assignment: clone, add, commit and push.
+Here's how you do the assignment on GitHub. After you accept the invite for
+this assignment, go to your assignment's repo.
 
-Stop by office hours if this is confusing.
+1) Click on the green "Code" button in your repo.
+2) Click on "create codespace" or similar. Wait while the VM is created.
+3) You should be sitting now in a web-version of the code editor called "Visual Studio Code".
+4) Use your judgement, figure out how to create a file called `me.txt` that has
+   your class nickname in it. Save that file.
+5) Do `git add me.txt` and then `git commit -m "add file with my nickname"`
+6) Browse your GitHub assignment repo in another tab and verify that your
+   `me.txt` file appears in your `main` branch.
+7) Close the editor.
+
+Kyle will post a video of all this.
+
